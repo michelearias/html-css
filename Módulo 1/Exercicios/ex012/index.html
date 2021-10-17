@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <H1>Inserindo vídeos hospedados localmente</H1>
+    <p>Este vídeo está hospedado no meu próprio srvidos</p>
+
+    <video src="midia/meuvideo.mp4" width="500" controls></video> <!--inserir video, colocar o controls para aparecer o play do video / colocar todos os formatos de video atraves do source-->
+
+    <video width="500" poster="imagens/foto-m.png" controls autoplay> <!--atraves da tag video, consome muito trafego de dados // poster - colocar uma foto na capa do video-->
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/meuvideo.mv4" type="video/mp4">
+        <source src="midia/meuvideo.webm" type="video/webm">
+        <source src="midia/meuvideo.ogv" type="video/ogg">
+        <p>Seu video não pode ser reproduzido nesse arquivo</p>
+
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--ir no youtube, procurar o video, abrir o video, clicar em compartilhar, clicar em incorporar, copiar o código que aparece / forma mis recomendada de colocar video nos sites // posso usar o vimeo, onde posso fazrer configurações la -->
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1> <!--link que vai apontar para outro site-->
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external"> repositório público no Github</a> </a></p> <!--abrir em outra aba target blank e rel external-->
+    <p>Você também pode usar meu <a href="https://youtube.com/cursoemvideo/">canal gratuito no Youtube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se voce quiser, pode acessar também a minha <a href="pag002.html" rel="next"> segunda página</a></p> <!--rel = next - indica que é a próxima página, facilita o sistema de navegação-->
+    <p>Você também pode acessr a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícia</a></p> <!--target = self - o site abre na mesma página-->
+
+    <h1>Link para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!-- type= application/pdf - esta em uma lista de todos os midia types-->
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li> <!--no caso zip faz o download automaticamente-->
+    </ul>
+    
+</body>
+</html>
