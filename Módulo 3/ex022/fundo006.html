@@ -12,13 +12,26 @@
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /* contain - faz com que a imagem seja 100% exibida, não pooso ter corte nenhum nessa imagem
+            background-size: cover; 
+             /* contain - faz com que a imagem seja 100% exibida, não pooso ter corte nenhum nessa imagem
             cover - cobrir a tela inteira meso que para isso picote a imagem
             auto - deixar o navegador mostrar */
+            /*background-attachment: fixed; /* scroll - fundo vai rolar junto com o conteudo 
+            fixed - fundo fica parado
+             */
+
+             /* Shorthand - background
+             color > image > position > repeat > [size - AINDA NÃO ESTA FUNCIONANDO] > attachment
+             
+             background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+             background-size: cover;
+             
+             */
+            
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +42,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint ipsum animi beatae, distinctio facilis reprehenderit dolorem dicta fugit nesciunt laboriosam error dolor corrupti earum at mollitia! Laudantium, aspernatur at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, facere reprehenderit eum amet exercitationem fugit corrupti a obcaecati sequi repellendus aspernatur dolore, eaque laboriosam dolores ex est ea, ipsa rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, numquam voluptatem cumque provident delectus saepe beatae. Quas magnam veniam vero, eius amet, omnis obcaecati deleniti, ut optio maiores fugit perspiciatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint ipsum animi beatae, distinctio facilis reprehenderit dolorem dicta fugit nesciunt laboriosam error dolor corrupti earum at mollitia! Laudantium, aspernatur at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, facere reprehenderit eum amet exercitationem fugit corrupti a obcaecati sequi repellendus aspernatur dolore, eaque laboriosam dolores ex est ea, ipsa rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, numquam voluptatem cumque provident delectus saepe beatae. Quas magnam veniam vero, eius amet, omnis obcaecati deleniti, ut optio maiores fugit perspiciatis!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint ipsum animi beatae, distinctio facilis reprehenderit dolorem dicta fugit nesciunt laboriosam error dolor corrupti earum at mollitia! Laudantium, aspernatur at! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, facere reprehenderit eum amet exercitationem fugit corrupti a obcaecati sequi repellendus aspernatur dolore, eaque laboriosam dolores ex est ea, ipsa rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, numquam voluptatem cumque provident delectus saepe beatae. Quas magnam veniam vero, eius amet, omnis obcaecati deleniti, ut optio maiores fugit perspiciatis!</p>
     </main>
     
